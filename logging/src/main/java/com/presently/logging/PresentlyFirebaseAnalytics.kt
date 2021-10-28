@@ -74,4 +74,9 @@ internal class PresentlyFirebaseAnalytics(
         firebaseAnalytics.setAnalyticsCollection(enabled = false)
         crashReporter.optOutOfCrashReporting()
     }
+
+    override fun optIntoAnalytics() {
+        firebaseAnalytics.setAnalyticsCollection(enabled = true)
+        crashReporter.optIntoCrashReporting()
+    }
 }

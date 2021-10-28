@@ -27,6 +27,7 @@
     <string name="open">Otvoreno</string>
     <string name="import_entries_from_backup">Uvoz unosa iz siguronosne kopije</string>
     <string name="ok">Uvoz</string>
+    <string name="cancel">Otkazati</string>
     <string name="import_data_dialog">Jeste li sigurni da želite uvesti?</string>
     <string name="import_data_dialog_message">Uvezeni podaci mogu prebrisati postojećeunose.</string>
     <string name="days_of_gratitude">dani zahvalnost!</string>

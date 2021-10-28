@@ -22,13 +22,18 @@ private annotation class InternalApi
 object AnalyticsModule {
 
     @Provides
-    fun providesAnalyticsLogger(@InternalApi firebase: com.presently.logging.FirebaseAnalytics, crashReporting: CrashReporter): AnalyticsLogger {
+    fun providesAnalyticsLogger(
+        @InternalApi firebase: com.presently.logging.FirebaseAnalytics,
+        crashReporting: CrashReporter
+    ): AnalyticsLogger {
         return PresentlyFirebaseAnalytics(firebase, crashReporting)
     }
 
     @Provides
     @InternalApi
-    fun provideFirebaseAnalyticsWrapper(@InternalApi firebase: FirebaseAnalytics): com.presently.logging.FirebaseAnalytics {
+    fun provideFirebaseAnalyticsWrapper(
+        @InternalApi firebase: FirebaseAnalytics
+    ): com.presently.logging.FirebaseAnalytics {
         return RealFirebaseAnalytics(firebase)
     }
 

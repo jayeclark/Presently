@@ -60,6 +60,7 @@
     <string name="permission_export">Este necesară permisiunea pentru a exporta datele</string>
     <string name="error_parsing">Eroare la analizarea fișierului</string>
     <string name="file_not_csv">Fișierul trebuie să fie un CSV</string>
+    <string name="error_creating_csv_file">Eroare la crearea fișierului CSV pe dispozitiv</string>
     <string name="no_app_found">Nu a fost găsită nicio aplicație care să deschidă acest fișier</string>
     <string name="copied">Copiat în clipboard</string>
     <string name="security">Secuitate</string>

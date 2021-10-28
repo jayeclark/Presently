@@ -1,33 +1,4 @@
 <resources>
-    <!--  No need to translate these following strings  -->
-    <string name="app_name" translatable="false">Presently</string>
-    <string name="key_faq" translatable="false">faq</string>
-    <string name="key_share_app" translatable="false">share_app</string>
-    <string name="key_privacy_policy" translatable="false">privacy_policy</string>
-    <string name="key_terms_conditions" translatable="false">terms_conditions</string>
-    <string name="key_open_source" translatable="false">open_source</string>
-    <string name="key_version" translatable="false">version</string>
-
-    <string name="language_en" translatable="false">English</string>
-    <string name="language_ar" translatable="false">عربي</string>
-    <string name="language_hr" translatable="false">Hrvatski</string>
-    <string name="language_nl" translatable="false">Nederlands</string>
-    <string name="language_fi" translatable="false">Suomalainen</string>
-    <string name="language_fr" translatable="false">Français</string>
-    <string name="language_de" translatable="false">Deutsche</string>
-    <string name="language_it" translatable="false">Italiano</string>
-    <string name="language_pl" translatable="false">Polskie</string>
-    <string name="language_pt" translatable="false">Português</string>
-    <string name="language_pt_br" translatable="false">Portugues do Brasil</string>
-    <string name="language_ro" translatable="false">Română</string>
-    <string name="language_ru" translatable="false">русский</string>
-    <string name="language_sk" translatable="false">Slovák</string>
-    <string name="language_es" translatable="false">Español</string>
-    <string name="language_tr" translatable="false">Türkçe</string>
-    <string name="language_af" translatable="false">Afrikaans</string>
-
-    <!--  Begin translations from here down  -->
-
     <string name="random">Random</string>
     <string name="what_are_you_thankful_for">What are you grateful for?</string>
     <string name="what_were_you_thankful_for">What were you grateful for?</string>
@@ -132,4 +103,9 @@
     <string name="show_quote_off">Gratitude quotes will not be shown on entry page</string>
     <string name="show_quote_on">Gratitude quotes will be shown on entry page</string>
     <string name="inspiration_title">Inspirational quotes</string>
+    <string name="analytics_opt_out_title">Analytics data collection</string>
+    <string name="analytics_opted_in_desc">Presently is collecting anonymized, encrypted analytics information to help diagnose problems and monitor trends</string>
+    <string name="analytics_opted_out_desc">Presently is not collecting any analytics information</string>
+    <string name="analytics_opt_out_success">Analytics data is deleted and no longer recorded!</string>
+    <string name="analytics_opt_in_success">Analytics data is being recorded again!</string>
 </resources>
