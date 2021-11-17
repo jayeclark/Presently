@@ -1,5 +1,4 @@
 <resources>
-    <string name="random">Random</string>
     <string name="what_are_you_thankful_for">What are you grateful for?</string>
     <string name="what_were_you_thankful_for">What were you grateful for?</string>
     <string name="what_are_you_thankful_for_today">What are you grateful for today?</string>
@@ -27,6 +26,7 @@
     <string name="import_entries_from_backup">Import entries from backup</string>
     <string name="ok">Import</string>
     <string name="cancel">Cancel</string>
+    <string name="random">Random</string>
     <string name="import_data_dialog">Are you sure you want to import?</string>
     <string name="import_data_dialog_message">Imported data could overwrite existing entries.</string>
     <string name="days_of_gratitude">days of gratitude!</string>
@@ -47,7 +47,7 @@
     <string name="share_progress">Share your gratitude progress</string>
     <string name="change_time">Change your daily reminder time</string>
     <string name="time_title">Adjust Reminder Notifications</string>
-    <string name="theme_change">Choose from over 20 different themes and color schemes</string>
+    <string name="theme_change">Choose from over 30 different themes and color schemes</string>
     <string name="notifs_off">Daily reminder notifications are off</string>
     <string name="notifs_on">Daily reminder notifications are on</string>
     <string name="notifs">Daily Reminder Notifications</string>
