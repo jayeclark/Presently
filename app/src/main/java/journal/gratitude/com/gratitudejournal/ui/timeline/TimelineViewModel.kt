@@ -6,13 +6,12 @@ import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import journal.gratitude.com.gratitudejournal.model.Entry
 import journal.gratitude.com.gratitudejournal.model.Milestone
-import journal.gratitude.com.gratitudejournal.model.Milestone.Companion.milestones
+import journal.gratitude.com.gratitudejournal.model.Milestone.Companion.isMilestone
 import journal.gratitude.com.gratitudejournal.model.TimelineItem
 import journal.gratitude.com.gratitudejournal.repository.EntryRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.threeten.bp.LocalDate
@@ -73,7 +72,7 @@ class TimelineViewModel @Inject constructor(private val repository: EntryReposit
                             listWithHintsAndMilestones.add(0, listWithHints[index])
                             if (listWithHints[index].entryContent.isNotEmpty()) {
                                 numEntries++
-                                if (milestones.contains(numEntries)) {
+                                if (isMilestone(numEntries)) {
                                     listWithHintsAndMilestones.add(0, Milestone.create(numEntries))
                                 }
                             }
